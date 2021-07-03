@@ -17,6 +17,9 @@ p {
     line-height: 1.5rem;
     color: grey;
 }
+.mobile {
+    display: none;
+}
 
 .header {
     display: flex;
@@ -229,6 +232,12 @@ nav.active .icon .line2 {
 }
 
 @media (max-width: 1024px) {
+    .mobile {
+        display: block;
+    }
+    .desktop {
+        display: none;
+    }
     .info-slider {
         justify-content: flex-start;
     }
