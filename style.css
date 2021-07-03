@@ -318,3 +318,14 @@ nav.active .icon .line2 {
         padding: 0 5rem;
     }
 }
+
+@media (max-width: 500px) {
+    nav.active {
+        width: 70vw;
+        background-color: #fff;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    
+}
